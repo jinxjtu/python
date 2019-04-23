@@ -14,3 +14,22 @@ with open('D:/python/days.txt', 'r') as f:
 %%%%%%%%%%%%%%%%%%5
 with open('D:/python/newdays.txt', 'w') as f:
     f.write('Hello, world!')
+
+
+多个文件
+
+with open('/home/xbwang/Desktop/output_measures.txt','r') as f:
+    with open('/home/xbwang/Desktop/output_measures2.txt','r') as f1:
+        with open('/home/xbwang/Desktop/output_output_bk.txt','r') as f2:
+　　　　　　　........
+　　　　　　　........
+　　　　　　　........
+       
+       或者
+       
+with open('/home/xbwang/Desktop/output_measures.txt','r') as f:
+........
+with open('/home/xbwang/Desktop/output_measures2.txt','r') as f1:
+........
+with open('/home/xbwang/Desktop/output_output_bk.txt','r') as f2:
+........
