@@ -1,0 +1,11 @@
+
+%%%%%%%%%%%%%%
+try:
+    f = open('D:/python/days.txt', 'r')
+    print(f.read())
+finally:
+    if f:
+        f.close()
+%%%%%%%%%%%%%%%%%%5
+with open('D:/python/days.txt', 'r') as f:
+    print(f.read())
