@@ -9,3 +9,8 @@ finally:
 %%%%%%%%%%%%%%%%%%5
 with open('D:/python/days.txt', 'r') as f:
     print(f.read())
+
+
+%%%%%%%%%%%%%%%%%%5
+with open('D:/python/newdays.txt', 'w') as f:
+    f.write('Hello, world!')
